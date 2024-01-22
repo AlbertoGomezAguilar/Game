@@ -1,13 +1,14 @@
 # Game
-Juego de MSMK AB-PROGRAMACION
+# Juego de MSMK AB-PROGRAMACION
 
+# Import
 import time
 import numpy as np
 import sys
 import random
 
 
-    # retraso en las salidas
+# retraso en las salidas
 def delay_print(s):
     # pintamos los caracteres 1 a 1
     for c in s:
@@ -15,7 +16,7 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.05)
 
-    # creación de clase ANILLO
+# creación de clase ANILLO
 class Anillo:
     def __init__(self, name, types, moves, EVs, health='++++++++++++++++++++'):
         # pasar las variables a atributos
